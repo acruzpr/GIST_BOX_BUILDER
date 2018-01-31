@@ -27,7 +27,7 @@ git clone https://github.com/acruzpr/GIST_BOX_BUILDER.git
 ### Configuration
 In order for the plugin to work properly, its locations needs to be specified every time is executed. In order to avoid this behavior, its location can be specified using the **GBOX_GUI_HOME** environment variable.
 
-##### Linux and Mac (OSx)
+#### Linux and Mac (OSx)
 For BASH copy this line to your .bashrc:
 ```
 export GBOX_GUI_HOME="path to GIST_BOX_BUILDER"
@@ -37,7 +37,7 @@ For CSHELL copy this line to your .cshellrc:
 setenv GBOX_GUI_HOME "path to GIST_BOX_BUILDER"
 ```
 
-##### Windows 7 and Windows 10
+#### Windows 7 and Windows 10
 >1. For ***Windows 7***, open the Start Menu and right click on **Computer**. Select **Properties**. (For ***Windows 10***, right click on the Start Menu and select ***System***.)
 >1. Select ***Advanced system settings***.
 >1. In the ***Advanced*** tab, select ***Environment Variables***.
@@ -47,7 +47,7 @@ setenv GBOX_GUI_HOME "path to GIST_BOX_BUILDER"
 >1. Press ***OK***.
 ------------------
 ------------------
-### Usage
+#### Usage
 >1. Load the starting structure of the trajectory. 
 >1. Load GIST_Box_Builder.tcl from the VMD Tk console. If the **GBOX_GUI_HOME** environment variable was not specified then select the location of the plugin with the directory selection dialog.
 >1. The script will guide you to load the ligand (previously aligned to the trajectory).
@@ -58,15 +58,15 @@ setenv GBOX_GUI_HOME "path to GIST_BOX_BUILDER"
     2. Save the gist input for cpptraj by selecting the save location and name in the **Actions** section.
 >1. If you want to visualize the gridbox later save the gidbox as a vmd state file using the **Actions** section.
 
-######AMBER Files   
+#### AMBER Files   
 * Used to load the AMBER topology and trajectory for use in the creation of GIST input for cpptraj.  
-######Setup Parameters 
-  * Setup grid size and steep size for the grid center movement.  
-  * Setup the format for the AMBER topology and trajectory files in the GIST input files.  
-######Box Details  
-  * Increase the grid box size and move the grid box center.  
-######GIST cpptraj command  
-  * Generate the GIST command to use in the cpptraj input file.  
-######Actions 
-  * Save the cpptraj input file for the GIST calculation.  
-  * Save VMD visualization state of the box for later visualization.
+#### Setup Parameters 
+* Setup grid size and steep size for the grid center movement.  
+* Setup the format for the AMBER topology and trajectory files in the GIST input files.  
+#### Box Details  
+* Increase the grid box size and move the grid box center.  
+#### GIST cpptraj command  
+* Generate the GIST command to use in the cpptraj input file.  
+#### Actions 
+* Save the cpptraj input file for the GIST calculation.  
+* Save VMD visualization state of the box for later visualization.
