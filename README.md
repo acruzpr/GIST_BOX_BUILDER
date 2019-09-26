@@ -30,11 +30,11 @@ In order for the plugin to work properly, its locations needs to be specified ev
 #### Linux and Mac (OSx)
 For BASH copy this line to your .bashrc:
 ```
-export GBOX_GUI_HOME="path to GIST_BOX_BUILDER"
+export GBOX_HOME="path to GIST_BOX_BUILDER"
 ```
 For CSHELL copy this line to your .cshellrc:
 ```
-setenv GBOX_GUI_HOME "path to GIST_BOX_BUILDER"
+setenv GBOX_HOME "path to GIST_BOX_BUILDER"
 ```
 
 #### Windows 7 and Windows 10
